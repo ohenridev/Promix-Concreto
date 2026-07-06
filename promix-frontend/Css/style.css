@@ -241,7 +241,6 @@ body {
     background: rgba(255,255,255,.82);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border-radius: 28px;
     padding: .7rem 1.5rem;
     box-shadow: 0 12px 35px rgba(0,0,0,.08);
 }
