@@ -120,7 +120,7 @@ body {
 /* Button Styles   */
 
 .btn {
-    background-color: #C57A1C;
+    background-color: #C57A1C; 
     color: #fff;
     padding: .9rem 2rem;
     display: inline-block;
@@ -234,18 +234,23 @@ body {
 /* Services Section Styles   */
 
 .services {
+    display: grid;
     padding-block: 5rem;
     background-color: #fff;
 }
 
 .service-card {
-    background-color: #c25503;
-    padding: 1rem;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    color: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #C57A1C;
+}
+
+.service-card img {
+   width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: .4s;
 }
 
 .service-card:hover {
@@ -255,17 +260,18 @@ body {
 
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .service-card h3 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #ffffff;
+    color: var(--black-color);
     font-size: clamp(1.5rem, 2vw, 2rem);
     margin-bottom: 1rem;
 }
@@ -290,13 +296,13 @@ body {
     font-size: 1.3rem;
     text-align: center;
     max-width: 700px;
-    margin: 0 auto 3rem;
+    margin: auto;
     color: var(--black-color);
 }
 
 .service-card p {
     line-height: 1.6;
-    color: #ffffff;
+    color: var(--background-color);
     font-size: clamp(1.1rem, 1.4vw, 1.3rem);
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -306,7 +312,7 @@ body {
 
 .advantages {
     padding-block: 5rem;
-    background-color: #ffffff;
+    background-color: #fff;
     
 }
 .advantages-list {
