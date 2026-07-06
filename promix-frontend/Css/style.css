@@ -237,20 +237,26 @@ body {
     display: grid;
     padding-block: 5rem;
     background-color: #fff;
+    justify-content: center;
+    background: rgba(255,255,255,.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 28px;
+    padding: .7rem 1.5rem;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
 }
 
 .service-card {
-    position: relative;
     overflow: hidden;
     border-radius: 16px;
     background-color: #C57A1C;
 }
 
 .service-card img {
-   width: 100%;
+     width: 100%;
     height: 300px;
     object-fit: cover;
-    transition: .4s;
+    margin-bottom: 1.5rem;
 }
 
 .service-card:hover {
@@ -271,7 +277,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--black-color);
+    color: var(--background-color);
     font-size: clamp(1.5rem, 2vw, 2rem);
     margin-bottom: 1rem;
 }
@@ -298,10 +304,12 @@ body {
     max-width: 700px;
     margin: auto;
     color: var(--black-color);
+    margin-bottom: 3rem;
 }
 
 .service-card p {
     line-height: 1.6;
+    text-align: center;
     color: var(--background-color);
     font-size: clamp(1.1rem, 1.4vw, 1.3rem);
     line-height: 1.6;
