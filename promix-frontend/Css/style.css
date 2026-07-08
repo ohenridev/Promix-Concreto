@@ -340,6 +340,8 @@ body {
 
 .advantages-list {
     display: grid;
+    align-items: start;
+    padding: 32px;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 }
@@ -368,11 +370,12 @@ body {
     font-size: clamp(1rem, 1.25vw, 1.25rem);
     line-height: 1.6;
     max-width: 550px;
-    margin-top: 1rem;
 }
 
 .advantages-content .btn {
     display: flex;
+    justify-content: center;
+    width: 50%;
     gap: 2rem;
     border-radius: 100px 100px 100px 100px;
     margin-top: 1rem;
