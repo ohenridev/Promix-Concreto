@@ -325,21 +325,15 @@ body {
 }
 
 .advantages .container {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
 }
 
 .advantages-list {
-    flex: 1;
-    min-width: 280px;
-    padding: 0;
-}
-
-.advantages-content {
-    flex: 1;
-    min-width: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
 }
 
 .advantages-content h2 {
