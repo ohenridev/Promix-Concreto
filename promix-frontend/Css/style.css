@@ -328,6 +328,14 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.advantage-card img {
+    width: 28%;
+    height: 100px;
+    justify-content: baseline;
 }
 
 .advantages-list {
@@ -373,13 +381,13 @@ body {
 }
 
 .advantage-card {
-    background-color: #C57A1C;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    color: #222;
     padding: 1rem;
-    border-radius: 12px;
     text-align: center;
     margin-bottom: 0.5rem;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    color: #fff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -393,13 +401,13 @@ body {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #ffffff;
+    color: var(--black-color);
     font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .advantage-card p {
     line-height: 1.6;
-    color: #ffffff;
+    color: var(--black-color);
     font-size: clamp(1rem, 1.25vw, 1.25rem);
     line-height: 1.6;
     text-align: center;
