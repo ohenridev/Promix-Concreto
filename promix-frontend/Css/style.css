@@ -430,9 +430,12 @@ body {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #000000;
-    font-size: clamp(2rem, 3vw, 3rem);
-    margin-bottom: 2rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, var(--cor-primaria--), var(--black-color));
+    color: transparent;
+    font-size: clamp(2rem, 4vw, 3.8rem);
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -444,7 +447,7 @@ body {
 }
 
 .contact-item {
-    background-color: #fb6c04;
+    background-color: #C57A1C;
     padding: 1rem;
     border-radius: 12px;
     text-align: center;
