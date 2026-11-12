@@ -1,152 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-type="service">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promix Concreto</title>
-    <meta name="description" content="Promix Concreto - Soluções em concreto de alta qualidade para construção civil.">
-    <link rel="icon"  href="Assets/images/Promix.png" type="image/png">
-    <link rel="stylesheet" href="Css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="page-type" content="service">
+  <meta name="site-kind" content="other">
+  <title>Promix Concreto — Concreto usinado para sua obra</title>
+  <meta name="description" content="Concreto usinado, bombeamento e atendimento técnico. Conheça os serviços da Promix e prepare seu pedido de orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#f3f1eb">
+  <meta property="og:title" content="Promix Concreto — Concreto usinado para sua obra">
+  <meta property="og:description" content="Concreto usinado, bombeamento e atendimento técnico. Fale com a Promix sobre sua concretagem.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="Assets/images/Promix.png" type="image/png">
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="Js/script.js" defer></script>
 </head>
 <body>
-    
-    <header class="header">
-        <div class="container">
-            
-            <a href="#inicio" class="logo" aria-label="Ir para o início da página">
-                <img src="Assets/images/Promix.png" alt="Logo da Promix Concreto" class="logo-image">
-            </a>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Promix Concreto — início">
+        <img src="Assets/images/Promix.png" width="60" height="60" alt="Promix Concreto">
+      </a>
+      <nav id="navigation" class="navbar" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#planejamento">Sua concretagem</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn header-cta" href="#orcamento">Solicitar orçamento <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
 
-            <button class="menu-toggle" aria-label="Abrir menu de navegação">
-                <span class="hamburger"></span>
-            </button>
-
-            <nav class="navbar" aria-label="Navegação principal">
-                <ul class="menu">   
-                    <li><a href="#inicio">Início <span class="down-arrowhead">⌄</span> </a></li>
-                    <li><a href="#servicos">Serviços <span class="down-arrowhead">⌄</span> </a></li>
-                    <li><a href="#vantagens">Vantagens <span class="down-arrowhead">⌄</span> </a></li>
-                </ul>
-            </nav>
-
-            <div class="social-links"> 
-                <a href="https://www.instagram.com/promix.concreteira" aria-label="Instagram"> 
-                    <img src="Assets/images/icons/instagram.svg" alt="Instagram">
-                </a>
-                <a href="https://api.whatsapp.com/send/?phone=559591474271&text&type=phone_number&app_absent=0" arial-label="WhatsApp">
-                    <img src="Assets/images/icons/whatsapp.svg" alt="WhatsApp">
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61568231554824" arial="Facebook">
-                    <img src="Assets/images/icons/facebook.svg" alt="Facebook">
-                </a>
-            </div>
-
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title" data-enter>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">PROMIX CONCRETO</p>
+          <h1 id="hero-title">Concreto usinado.<br><span>Da nossa central<br>para a sua obra.</span></h1>
+          <p class="hero-description">Fornecimento de concreto, bombeamento e orientação técnica para planejar sua concretagem.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#orcamento">Solicitar orçamento <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#servicos">Conhecer os serviços <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
-    </header>
-
-    <main>
-
-        <section class="hero" id="inicio">
-            <div class="container">
-                <h1>Concreto usinado para pequenas e grandes obras</h1>
-                <p>Qualidade, pontualidade e resistência para construir com segurança.</p>
-                <div class="hero-buttons">    
-                    <a href="https://api.whatsapp.com/send/?phone=559591474271&text&type=phone_number&app_absent=0" class="btn">Solicitar Orçamento</a>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="services" id="servicos">
-            <div class="container">
-                <h2>Nossos Serviços</h2>
-                <p>Oferecemos uma ampla gama de serviços em concreto para atender às suas necessidades de construção.</p>
-            </div>
-            <div class="services-list">
-                <article class="service-card">
-                    <img src="Assets/images/ChatGPT Image 6 de jul. de 2026, 13_08_24.png">
-                    <h3>Atendimento Técnico</h3>
-                    <p>Equipe preparada para orientar na escolha do traço ideal, quantidade necessária e planejamento da concretagem.</p>
-                </article>
-                <article class="service-card">
-                    <img src="Assets/images/ChatGPT Image 6 de jul. de 2026, 13_13_45.png">
-                    <h3>Bombeamento de Concreto</h3>
-                    <p>Serviço de bombeamento para locais de difícil acesso, proporcionando mais agilidade, segurança e precisão na concretagem.</p>
-                </article>
-                <article class="service-card">
-                    <img src="Assets/images/ChatGPT Image 6 de jul. de 2026, 13_16_15.png">
-                    <h3>Concreto sob Medida</h3>
-                    <p>Desenvolvimento de concreto conforme as especificações técnicas do projeto, atendendo diferentes necessidades de engenharia.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="advantages" id="vantagens">
-            <div class="container">
-                <div class="advantages-content">
-                    <h2>Vantagens do Nosso Concreto</h2>
-                    <p>Nosso concreto é durável, resistente e ideal para qualquer projeto de construção.</p>
-                    <a href="https://api.whatsapp.com/send/?phone=559591474271&text&type=phone_number&app_absent=0" class="btn">Solicitar Orçamento</a>
-                </div>
-            <div class="advantages-list">
-                <article class="advantage-card">
-                    <img src="Assets/images/icons/concrete-mixer-concrete-svgrepo-com.svg">
-                    <h3>Concreto com controle de qualidade</h3>
-                    <p>Nosso concreto é projetado para resistir ao desgaste do tempo e às condições climáticas adversas.</p>
-                </article>
-                <article class="advantage-card">
-                    <img src="Assets/images/icons/alarm-svgrepo-com(2).svg">
-                    <h3>Entrega no prazo</h3>
-                    <p>Garantimos que nosso concreto atenda aos mais altos padrões de resistência estrutural.</p>
-                </article>
-                <article class="advantage-card">
-                    <img src="Assets/images/icons/worker-drilling-svgrepo-com.svg">
-                    <h3>Equipe especializada</h3>
-                    <p>Nossos produtos em concreto são versáteis e podem ser utilizados em uma variedade de aplicações de construção.</p>
-                </article>
-                <article class="advantage-card">
-                    <img src="Assets/images/icons/telephone-signal-svgrepo-com.svg">
-                    <h3>Atendimento personalizado</h3>
-                    <p>Oferecemos preços competitivos para garantir que você obtenha o melhor valor pelo seu investimento em concreto.</p>
-                </article>
-            </div>  
-
-        </section>
-
-        <section class="contact" id="contato">
-            <div class="container">
-                <h2>Entre em Contato</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h3>Telefone</h3>
-                        <p>(XX) XXXX-XXXX</p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Email</h3>
-                        <p>contato@promixconcreto.com.br</p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Endereço</h3>
-                        <p>Rua Exemplo, 123, Cidade, Estado</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.157139178627!2d-60.70839442471403!3d2.7698187553666855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d9303c68a5cd645%3A0xfeb24e379df73372!2sPr%C3%B3MIX%20Concreteira!5e0!3m2!1spt-BR!2sbr!4v1783710618811!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <a href="#inicio" class="logo" aria-label="Ir para o início da página">
-                <img src="Assets/images/Promix.png" alt="Logo da Promix Concreto" class="logo-image">
-            </a>
-            <p>&copy; 2026 Promix Concreto. Todos os direitos reservados.</p>
+        <div class="hero-visual">
+          <img src="Assets/USADA-30-12-24-scaled.jpg" width="1279" height="1919" alt="Caminhão betoneira da Promix em frente à central de concreto" fetchpriority="high" data-source="client" data-subject="Caminhão betoneira Promix">
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <script src="Js/script.js"></script>
+    <section class="services section" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="services-title">O que sua obra precisa.</h2>
+          <p>Converse com a equipe sobre as especificações do projeto, o acesso ao local e a etapa da construção.</p>
+        </div>
+        <div class="services-layout">
+          <div class="service-photo"><img src="Assets/WhatsApp-Image-2024-12-12-at-18.23.40-1.jpeg" width="1204" height="1600" alt="Silo e equipamentos da central Promix" loading="lazy" data-source="client" data-subject="Central de concreto Promix"></div>
+          <div class="service-list">
+            <article class="service-row"><span class="index" aria-hidden="true">01</span><div><h3>Concreto usinado</h3><p>Preparado conforme as especificações técnicas do projeto. Informe o traço e o volume necessário para consultar o fornecimento.</p></div></article>
+            <article class="service-row"><span class="index" aria-hidden="true">02</span><div><h3>Bombeamento</h3><p>Para levar o concreto aos pontos de aplicação. A equipe avalia o acesso e a necessidade de bombeamento da sua obra.</p></div></article>
+            <article class="service-row"><span class="index" aria-hidden="true">03</span><div><h3>Atendimento técnico</h3><p>Orientação sobre o concreto e o planejamento da entrega. Se tiver dúvidas sobre o pedido, comece por uma conversa.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="planning section" id="planejamento" aria-labelledby="planning-title">
+      <div class="container planning-grid">
+        <div><p class="eyebrow">ANTES DO CAMINHÃO CHEGAR</p><h2 id="planning-title">Uma concretagem<br>bem combinada.</h2><p class="section-description">Estas informações ajudam a equipe a entender o serviço e preparar seu orçamento.</p><a class="text-link" href="#orcamento">Preparar meu pedido <span aria-hidden="true">↗</span></a></div>
+        <ol class="planning-list">
+          <li><h3>Local e acesso à obra</h3><p>Informe o endereço e como o caminhão chega ao ponto de descarga.</p></li>
+          <li><h3>Volume e especificação</h3><p>Tenha em mãos a quantidade em m³ e a especificação indicada pelo responsável técnico, se disponíveis.</p></li>
+          <li><h3>Data e bombeamento</h3><p>Indique a data desejada e se precisa de bomba. A programação depende da confirmação da equipe.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="quote section" id="orcamento" aria-labelledby="quote-title">
+      <div class="container quote-grid">
+        <div class="quote-intro"><p class="eyebrow">ORÇAMENTO PELO WHATSAPP</p><h2 id="quote-title">Conte sobre<br>a sua obra.</h2><p class="section-description">Preencha o que já souber. Vamos organizar as informações em uma mensagem para você continuar a conversa com a Promix.</p><p class="quote-note">Ainda não tem os detalhes?<br><a class="text-link" href="https://api.whatsapp.com/send/?phone=5595991474271&amp;text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20concreto.">Falar direto com a equipe <span aria-hidden="true">↗</span></a></p></div>
+        <form class="quote-form" action="https://api.whatsapp.com/send/" method="get">
+          <input type="hidden" name="phone" value="5595991474271">
+          <div class="form-heading"><h3>Dados para o pedido</h3><span>Todos os campos são opcionais</span></div>
+          <div class="field"><label for="obra">Onde fica a obra?</label><input id="obra" name="local" type="text" maxlength="180" placeholder="Bairro, cidade ou endereço" autocomplete="street-address"></div>
+          <div class="form-row"><div class="field"><label for="volume">Volume estimado <span>(m³)</span></label><input id="volume" name="volume" type="number" min="0.1" max="100000" step="0.1" inputmode="decimal" placeholder="Ex.: 12"></div><div class="field"><label for="data">Data desejada</label><input id="data" name="data" type="date"></div></div>
+          <div class="field">
+            <label for="bomba">Precisa de bombeamento?</label>
+            <select id="bomba" name="bombeamento">
+              <option value="Ainda não sei">Ainda não sei</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+          </div>
+          <button class="btn" type="submit">Continuar no WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-help">Você revisa e envia a mensagem no WhatsApp. Este formulário não confirma o pedido nem a data.</p>
+          <noscript><p>Para levar os dados da obra à conversa, <a href="https://api.whatsapp.com/send/?phone=5595991474271&amp;text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20concreto.">abra o WhatsApp</a> e informe os detalhes à equipe.</p></noscript>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato" aria-labelledby="contact-title">
+      <div class="container"><div class="section-heading"><h2 id="contact-title">Encontre a Promix.</h2><div class="contact-links"><a class="text-link" href="https://api.whatsapp.com/send/?phone=5595991474271&amp;text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20concreto.">WhatsApp <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.instagram.com/promix.concreteira">Instagram <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.facebook.com/profile.php?id=61568231554824">Facebook <span aria-hidden="true">↗</span></a></div></div><a class="text-link map-link" href="https://www.google.com/maps/search/?api=1&amp;query=2.7698187553666855,-60.70839442471403">Abrir localização no Google Maps <span aria-hidden="true">↗</span></a><div class="map"><iframe title="Localização da Promix Concreteira" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.157139178627!2d-60.70839442471403!3d2.7698187553666855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d9303c68a5cd645%3A0xfeb24e379df73372!2sPr%C3%B3MIX%20Concreteira!5e0!3m2!1spt-BR!2sbr!4v1783710618811!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><a class="logo" href="#inicio" aria-label="Promix — voltar ao início"><img src="Assets/images/Promix.png" width="56" height="56" alt="Promix Concreto"></a><p>© 2026 Promix Concreto</p><a class="text-link" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a></div></footer>
 </body>
 </html>
